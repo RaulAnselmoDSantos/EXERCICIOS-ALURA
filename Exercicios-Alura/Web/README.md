@@ -3,3 +3,5 @@
 <p>Foco de todos os exerccios dessa pasta é Web e tudo que engloba</p>
 
 <p>Os exercícios separados por pasta</p>
+
+<p>-----------------------------------------------------------</p>
