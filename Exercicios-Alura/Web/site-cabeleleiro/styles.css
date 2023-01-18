@@ -1,0 +1,206 @@
+body{
+	font-family: 'Montserrant', sans-serif; 
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+header {
+	background: #CCCCCC;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav{
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+ 
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.imagem-principal {
+	width: 100%;
+}
+
+.principal {
+	padding: 3em 0;
+	/*background: #FEFEFE;*/
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em; 
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 1em 0 1em; 
+	clear: left;
+}
+
+/*sintax de Pseudo classe, é bastante util
+.titulo-principal:first-letter {
+	font-weight: bolder;
+}
+/*Coloca elementos antes do conteudo da classe
+.titulo-principal:before {
+
+}
+/*Coloca elementos depois do conteudo da classe
+.titulo-principal:after {
+
+}*/
+
+.utensilios {
+	width: 120px; 
+	float: left;
+	margin: 0  10px 10px 0; /* distribuição dos espaços é em sentido horario. ex: cima, 
+							direita, baixo e esquerda*/
+}
+
+table {
+	margin: 20px 10px 40px;
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+.mapa {
+	padding: 0 0;
+	
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+	font-size: 20px;
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.beneficios{
+	padding: 3em 0;
+}
+
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top; 
+}
+
+.itens {
+	line-height: 1.5;
+
+}
+
+.itens:first-child /*Maneira de tratar pseudo classes(itens iguais dentro de uma classe
+					sem auterar os demais com first/last ou mesmo o nth-child(n°) */{
+	font-weight: bold;
+
+}
+
+.itens:before {
+	content: "★ ";
+}
+
+.imagem-beneficios {
+	width: 60%; 
+	opacity: 0.3;
+	transition:  700ms;
+
+}
+
+.imagem-beneficios:hover { 
+	opacity: 1;
+	box-shadow: 10px 10px 20px #000000;
+}
+
+
+.video {
+	width: 600px;
+	height: 350px;
+	margin: 2em auto;
+	transition:  700ms;
+}
+
+.video:hover {
+	box-shadow: 10px 10px 20px #000000;
+}
+
+footer {
+	background: url(imagens/bg.jpg);
+	text-align: center; 
+	font-size: 20px;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin-top: 15px 0 0;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+		width: auto; 
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+}

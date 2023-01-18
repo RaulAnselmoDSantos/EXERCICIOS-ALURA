@@ -1,0 +1,110 @@
+<!DOCTYPE html> <!-- indica o time de documento, nosso caso html -->
+<html>
+	<head> <!-- inicio do cabeçario apenas informações especificas -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"> 
+		<title>Contato - Barbearia Alura</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="contato.css">
+	</head> <!-- corpo do texto html onde ficam a maioria dos elementos  -->
+	<body>
+		<header>
+			<div class="caixa">
+				 <h1><img src="imagens/logo.png" alt="Logo da Barbearia Alura"></h1>
+
+				 <nav>
+					 <ul> <!-- lista não ordenada --> 
+					 	<li><a href="Sobre a Barbearia Alura.html">Home</a></li>  
+					 	<li><a href="produtos.html">Produtos</a></li>
+					 	<li><a href="contato.html">Contato</a></li>
+					 </ul>
+				 </nav>
+			</div>
+		</header>
+
+		<main>
+			<form id="form-1"> <!-- formularios -->
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id ="nomesobrenome" class="input-padrao" required placeholder="Seu Nome Completo">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) X XXXX-XXXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="65" rows="10" id="mensagem" class="input-padrao" required placeholder="Resenha"></textarea>
+
+				<fieldset> <!-- caixa de seleção, é usado para agrupar elementos, assim como labels (<label>), dentro de um formulário web. --> 
+					<legend>Como prefere nosso contato ?</legend> <!-- Campo "Legend") representa um rótulo para o conteúdo do seu ancestral <fieldset>. -->
+
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+
+					<label for="radio-telefone"> <input type="radio" name="contato" value="email" id="radio-telefone">Telefone </label>
+					
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp </label>
+					
+				</fieldset>
+
+				<fieldset> <!-- botão select -->
+					<legend>Qual horario prefere ser atendido ?</legend>
+					<select>
+						<option>Mnnhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox "><input type="checkbox" checked>Gostaria de receber novidades via E-mail?</label>
+
+				<input type="submit" value="Enviar Formulário" class="enviar">
+
+			</form>
+
+			<table> <!-- tabela , bem parecido com excel -->
+				<thead>
+					<tr><!-- LINHA -->
+						<th >Dia</th><!-- CELULA (colspan="3" para fazer uma celula ocupar a celula ao lado-->
+						<th> Horário</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td >Segunda</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Quarta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+					<tr>
+						<td>Sexta</td>
+						<td>8h ~ 20h</td>
+					</tr>
+				</tbody>
+			</table>
+
+		</main>
+
+		<footer>
+			<img src="imagens/logo-branco.png" alt="Logo da Barbearia Alura"> 
+			<p class="copyright"> &copy; Copyright Barbearia Alura - 2023</p>
+		</footer>
+
+<!--
+		A criar uma tabela HTML
+	A tag table, que representa a tabela
+	A tag tr, que representa a linha da tabela
+	A tag td, que representa a célula da tabela
+	A tag thead, que representa o cabeçalho da tabela
+	A tag tbody, que representa o corpo da tabela
+	A tag th, que representa a célula do cabeçalho da tabela
+	A tag tfoot, que representa o rodapé da tabela
+	A estilizar a tabela
+	
+-->
+	</body>
+</html>
