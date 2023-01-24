@@ -2,6 +2,6 @@
 
 <p>Foco de todos os exerccios dessa pasta é lógica de programação na linguagem</p>
 
-<p>Os exercícios separados por pasta</p>
+<p>Os exercícios são separados por pasta</p>
 
 <p>-----------------------------------------------------------</p>
