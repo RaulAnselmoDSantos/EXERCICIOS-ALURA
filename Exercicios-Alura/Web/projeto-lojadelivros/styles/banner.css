@@ -1,0 +1,35 @@
+.banner {
+    background: var(--azul-degrade);
+    color: var(--branco); 
+    text-align: center;
+    padding: 2.5em 2em;
+
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__texto {
+    font-weight: 500;
+    margin: 1em;
+}
+
+.banner__pesquisa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+
+    position: absolute;
+    width: 380px;
+    height: 44px;
+    left: calc(50% - 380px/2);
+    top: 139px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+}
