@@ -1,7 +1,7 @@
 public class TesteIR {
     public static void main(String[] args) {
 
-        double salario = 3751.0;
+        double salario = 3750.0;
 
         if(salario >= 3751.01){
             System.out.println("IR = "+salario+" * 22.5%");
