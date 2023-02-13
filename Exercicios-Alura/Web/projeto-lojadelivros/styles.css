@@ -4,7 +4,7 @@
 @import url("styles/carrossel.css");
 @import url("styles/tópicos.css"); 
 @import url("styles/contato.css");
-@import url("styles/rodape.css");
+@import url("styles/rodape.css"); 
 
 :root {
     --cor-de-fundo: #ebecee;
@@ -15,6 +15,8 @@
     --azul: #002F52; 
     --fonte-secundario:"Josefin Sans"; 
     --bleak: #000000;
+    --cor-fudo-footer: #F9F9F9;
+    --cor-link-footer: #474646;
 }
 
 body{
