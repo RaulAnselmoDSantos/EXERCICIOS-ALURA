@@ -4,13 +4,13 @@
 
 <p>Separação por pasta de projeto</p>
 
-<<<<<<< HEAD
+
 <p>-----------------------------------------------------------</p> 
 <p> Esse repositorio foi criado durante as aulas de Git e GitHub da alura: <strong>Curso de
 Git e GitHub: repositório, commit e versões</strong> com os instrutores <strong>Guilherme Lima</strong> e <strong>Paulo Silveira</strong> </p>
 
 
-=======
+
 <p>-----------------------------------------------------------</p>
 
 <p> Esse repositorio foi criado durante as aulas de Git e GitHub da alura: <strong>Curso de
