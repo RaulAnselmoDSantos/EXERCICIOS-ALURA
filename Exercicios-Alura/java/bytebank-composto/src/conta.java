@@ -1,11 +1,10 @@
-package bytebank;
 
 public class conta {
+
     double saldo;
     int agencia; 
     int numero;
-    public String titular; 
-    String cpf;
+    Cliente titular;
 
     public void deposita(double valor) {
         saldo = saldo + valor;    
@@ -27,5 +26,4 @@ public class conta {
         } 
             return false;
     }
-
 }

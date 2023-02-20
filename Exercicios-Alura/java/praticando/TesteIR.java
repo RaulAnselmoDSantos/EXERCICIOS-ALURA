@@ -1,3 +1,4 @@
+package praticando;
 public class TesteIR {
     public static void main(String[] args) {
 

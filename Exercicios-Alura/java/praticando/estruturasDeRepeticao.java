@@ -1,3 +1,4 @@
+package praticando;
 public class estruturasDeRepeticao {
    public static void main(String[] args) {
         int contador =0;
