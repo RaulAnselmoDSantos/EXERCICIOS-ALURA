@@ -5,6 +5,8 @@ public class Cliente {
     private String cpf;
     private String profissao;  
 
+
+    //getters
     public String getNome() {
         return nome;
     }
@@ -17,6 +19,8 @@ public class Cliente {
         return profissao;
     }
 
+
+    //setters
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -28,5 +32,5 @@ public class Cliente {
     public void setProfissao(String profissao) {
         this.profissao = profissao;
     }
-    
+
 }
