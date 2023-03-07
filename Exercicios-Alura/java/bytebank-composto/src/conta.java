@@ -1,7 +1,7 @@
 package src;
 public class conta {
 
-    double saldo;
+    private double saldo;
     int agencia; 
     int numero;
     Cliente titular;
@@ -25,5 +25,9 @@ public class conta {
             return true; 
         } 
             return false;
+    }
+
+    public double pegaSaldo(){
+        return this.saldo; 
     }
 }
