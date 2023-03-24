@@ -1,14 +1,7 @@
-const robotron = document.querrySelector('#robotron')
+const subtrair = document.querySelector('#subtrair')
+const soma = document.querySelector('#somar')
+const braco = document.querySelector('#braco')
 
-
-robotron.addEventListerner("click", () => {
-    console.log("Cliquei no robô.")
+soma.addEventListener("click", (evento) => {
+    braco.value += 1
 })
-
-
-function dizOi() {
-    console.log("Oi")
-    console.log("Bem vindo")
-}
-
-dizOi()
